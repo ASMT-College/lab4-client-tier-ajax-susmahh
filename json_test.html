@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var gods = [
+        {
+          name: "acee",
+          age: 20,
+        },
+        {
+          name: "appu",
+          age: 22,
+        },
+        {
+          name: "kid",
+          age: 19,
+        },
+      ];
+      var gods_json = JASON.stringify(gods);
+      console.log(gods_json);
+      console.log(typeof gods_json);
+      var gods_js_object = JSON.parse(gods_json);
+      console.log(gods_is_object);
+      console.log(typeof gods_is_object);
+    </script>
+  </body>
+</html>
